@@ -1,0 +1,1 @@
+# A restaurant menu which opens with a QR code to display the menu items, description and pricing. This app has an admin interface to update all menu items.
