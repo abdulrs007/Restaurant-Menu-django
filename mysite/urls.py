@@ -21,3 +21,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('restaurant_menu.urls'))
 ]
+# configure Admin titles
+admin.site.site_header = "Restaurant Admin Page"
+admin.site.site_title = "Admin Page"
+admin.site.index_title = "Welome to XYZ Restaurant Admin Page"
